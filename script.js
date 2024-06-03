@@ -83,7 +83,7 @@ function verificarValor() {
 
     let valor = parseFloat(document.getElementById("valor").value);
 
-    let mensagem = valor > 10 ? "É MAIOR QUE 10!" : "NÃO É MAIOR QUE 10!";
+    let mensagem = valor > 10 ? "É MAIOR QUE 10" : "NÃO É MAIOR QUE 10";
 
     document.getElementById("resultadoValor").innerText = mensagem;
 
